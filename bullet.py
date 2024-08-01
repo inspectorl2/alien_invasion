@@ -5,7 +5,7 @@ from pygame.sprite import Sprite
 class Bullet(Sprite):
     def __init__(self, ai_settings, screen, ship):
         """Создает объект пули в текущей позиции корабля"""
-        super(Bullet, self).__init__()
+        super().__init__()
         self.screen = screen
 
         # Создание пули в позиции (0, 0) и назначение правильной позиции.
